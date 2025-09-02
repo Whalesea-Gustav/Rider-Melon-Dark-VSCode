@@ -1,0 +1,21 @@
+{
+  "name": "rider-melon-dark",
+  "displayName": "rider-melon-dark",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "rider-melon-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rider-melon-dark-color-theme.json"
+      }
+    ]
+  }
+}

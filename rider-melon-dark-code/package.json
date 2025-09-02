@@ -1,0 +1,18 @@
+{
+    "name": "rider-melon-dark-code",
+    "displayName": "Rider Melon Dark (Code)",
+    "publisher": "your-name",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rider Melon Dark (Code)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/melon-dark-color-theme.json"
+            }
+        ]
+    }
+}
