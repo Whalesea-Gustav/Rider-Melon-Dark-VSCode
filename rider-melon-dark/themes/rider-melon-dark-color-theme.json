@@ -304,6 +304,15 @@
                 "foreground": "#FFFFFF",
                 "background": "#4A2421"
             }
+        },
+        {
+            "scope": [
+                "variable.language.self.lua",
+                "variable.language.self"
+            ],
+            "settings": {
+                "foreground": "#c191ff"
+            }
         }
     ],
     "semanticTokenColors": {
