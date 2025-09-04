@@ -190,8 +190,7 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#BDBDBD",
-                "fontStyle": "italic"
+                "foreground": "#38cb96",
             }
         },
         {
@@ -311,15 +310,21 @@
                 "variable.language.self"
             ],
             "settings": {
-                "foreground": "#c191ff"
+                "foreground": "#7a58a5"
+            }
+        },
+        {
+             "scope": "variable.parameter.lua",
+            "settings": {
+                "foreground": "#38cb96"
             }
         }
     ],
     "semanticTokenColors": {
         "variable": "#A1F6CC",
         "parameter": {
-            "foreground": "#BDBDBD",
-            "italic": true
+            "foreground": "#38cb96",
+            "italic": false
         },
         "property": "#85C46C",
         "enumMember": "#E1BFFF",
@@ -334,15 +339,23 @@
         "type": "#aaea95",
         "namespace": "#aaea95",
         "typeParameter": "#aaea95",
-        "string": "#C9A26D",
+        "string": "#62c0cb",
         "number": "#ED94C0",
-        "boolean": "#F0F0F0",
+        "boolean": "#79efbf",
         "regexp": "#FFD49E",
         "operator": "#BDBDBD",
         "keyword": "#6C95EB",
         "comment": {
             "foreground": "#5d6e77",
             "italic": true
+        },
+
+        "[lua]":
+        {
+            "parameter": {
+            "foreground": "#38cb96",
+            "italic": false // Set to false to remove italic style
+            }
         }
     }
 }
